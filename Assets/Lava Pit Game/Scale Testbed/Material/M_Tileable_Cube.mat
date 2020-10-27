@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Tileable_Cube
-  m_Shader: {fileID: 4800000, guid: a15eddaf83eb0bb40804b6d17af6f3df, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8842c84d9ff79e24abe4295f91ae4a7a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1d557bc533f5684438d25d03042b1025, type: 3}
+        m_Texture: {fileID: 2800000, guid: e61a550a7ddc3304fbfe0a01919efe9c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -60,6 +60,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,6 +111,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NormalStrength: 0.25
+    - _NormalStrength1: 0.17
+    - _NormalStrength2: 0.8
     - _OcclusionStrength: 1
     - _OutlineWidth: 0.25
     - _Parallax: 0.02
@@ -122,11 +132,13 @@ Material:
     m_Colors:
     - _BoxDims: {r: 5, g: 5, b: 5, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
     - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission1: {r: 1.6245048, g: 0, b: 0, a: 1}
     - _Emission2: {r: 0, g: 0.91533995, b: 1, a: 1}
     - _EmissionColor: {r: 1.816, g: 1.816, b: 1.816, a: 1}
+    - _FlowDirection1: {r: 0.05, g: 0, b: 0, a: 1}
+    - _FlowDirection2: {r: 0, g: 0.05, b: 0, a: 1}
     - _MovementDirection: {r: 0, g: -1, b: 0, a: 1}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _ScrollDirection: {r: 0.09, g: 0.09, b: 0.09, a: 0}
